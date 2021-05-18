@@ -56,7 +56,7 @@ export default function OpenConversation() {
               style={{ height: '75px', resize: 'none' }}
             />
             <InputGroup.Append>
-              <Button type="submit" style={{backgroundColor: '#282c34'}}>Send</Button>
+              <Button type="submit">Send</Button>
             </InputGroup.Append>
           </InputGroup>
         </Form.Group>
