@@ -31,7 +31,7 @@ export default function Login({ onIdSubmit }) {
 
   return (
  
-    <Container className="align-items-center d-flex" style={{ height: '100vh' }}>
+    <Container className="align-items-center d-flex" style={{ height: '100vh'}}>
       
    
       <Nav className="justify-content-end">
@@ -43,7 +43,7 @@ export default function Login({ onIdSubmit }) {
     </Form.Group>   
     <Button type="submit" className="mr-2">Login</Button>
     <Button onClick={createNewId} variant="secondary">Create A New Id</Button>
-  </Form> : <LoginButton />}
+  </Form> : <div className="align-items-center d-flex" style={{ height: '100vh', paddingLeft : '330px' }}><LoginButton /></div>}
     </Nav>
     </Container>
    
